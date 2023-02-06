@@ -28,7 +28,8 @@ for opt, arg in opts:
          sys.exit()
     elif opt == '-i' or opt == '--ip':
         ip = arg
-
+    elif opt == '-m':
+        webbrowser.open('https://www.google.com/maps/@' + str(r["lat"]) + ',' + str(r["lon"]) + ',10z')
 
 
 url = "http://ip-api.com/json/"
@@ -42,6 +43,3 @@ for key in r:
         print("\033[0;37m" + str(key) + " => \033[0;32m" + str(value))
 
 print('\033[0;37murl => \033[0;32mhttps://www.google.com/maps/@' + str(r["lat"]) + ',' + str(r["lon"]) + ',10z')
-
-if len(sys.argv) > 1 and sys.argv[1] == "-m":
-    webbrowser.open('https://www.google.com/maps/@' + str(r["lat"]) + ',' + str(r["lon"]) + ',10z')
