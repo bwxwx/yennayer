@@ -7,6 +7,18 @@ import sys, getopt
 
 
 
+
+print("\033[1;31m     )          )     )              )       (     ")
+print("  ( /(       ( /(  ( /(   (       ( /(       )\ )  ")
+print("  )\()) (    )\()) )\())  )\      )\()) (   (()/(  ")
+print(" ((_)\  )\  ((_)\ ((_)\((((_)(   ((_)\  )\   /(_)) ")
+print("__ ((_)((_)  _((_) _((_))\ _ )\ __ ((_)((_) (_))   ")
+print("\ \ / /| __|| \| || \| |(_)_\(_)\ \ / /| __|| _ \  ")
+print(" \ V / | _| | .` || .` | / _ \   \ V / | _| |   /  ")
+print("  |_|  |___||_|\_||_|\_|/_/ \_\   |_|  |___||_|_\  ")
+print("                            \033[1;32mcoded by guendouz aimed")
+print("                            aimedguendouz@gmail.com\033[0;37m")
+
                         #get arguments
 opts, args = getopt.getopt(sys.argv[1:],"hi:")
 for opt, arg in opts:
