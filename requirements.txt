@@ -1,0 +1,7 @@
+requests
+json
+sys
+os
+webbrowser
+sys
+getopt
